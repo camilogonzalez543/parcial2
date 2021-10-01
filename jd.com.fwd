@@ -1,0 +1,12 @@
+$TTL 3H
+@	IN SOA	jd.com.           root (
+					20210936	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+		IN	NS	servidor.
+servidor	IN	A	192.168.100.4
+servidor2	IN	A	209.191.100.2
+firewall 	IN	A 	192.168.0.177
+prue		IN	A	192.168.100.111

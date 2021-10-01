@@ -1,0 +1,11 @@
+$TTL 3H
+@	IN SOA	jd.com.           root (
+					20210936	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+		IN	NS	servidor.
+4		IN	PTR	servidor.jd.com.
+2		IN	PTR	servidor2.jd.com.
+177		IN	PTR	firewall.jd.com.	
